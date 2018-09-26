@@ -39,9 +39,9 @@
     "installPaths":{
         "coldbox":"../coldbox",
         "cbvalidation":"modules/cbvalidation",
-        "module-v1":"modules_app/v1",
-        "module-v2":"modules_app/v2",
-        "module-v3":"modules_app/v3"
+        "module-v1":"../modules_app/module-v1",
+        "module-v2":"../modules_app/module-v2",
+        "module-v3":"../modules_app/module-v3"
     },
     "scripts":{},
     "ignore":[
