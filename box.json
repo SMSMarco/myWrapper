@@ -27,6 +27,7 @@
     ],
     "contributors":[],
     "dependencies":{
+        "coldbox":"^4.3.0+188",
         "cbvalidation":"^1.3.1+51",
         "module-v1":"github:SMSMarco/myModules#master",
         "module-v2":"github:SMSMarco/myModules#module-v2",
@@ -36,6 +37,7 @@
         "testbox":"^2.8.0"
     },    
     "installPaths":{
+        "coldbox":"coldbox",
         "cbvalidation":"modules/cbvalidation",
         "module-v1":"../modules_app/module-v1",
         "module-v2":"../modules_app/module-v2",
