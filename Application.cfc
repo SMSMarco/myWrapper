@@ -19,6 +19,10 @@ component{
 	// COLDBOX APPLICATION KEY OVERRIDE
 	COLDBOX_APP_KEY 		 = "";
 
+	// coldbox 4 in the web root directory: wwwroot/coldbox_4_3_0/
+	this.mappings['/coldbox'] = replaceNoCase( COLDBOX_APP_ROOT_PATH, "myWrapper", "coldbox_4_3_0", "one");
+
+	// extenal modules mapping 
 	this.mappings["/modules_app"] = "C:\Users\ortiz\Documents\web\sandbox\versioning\modules_app";
 
 	// application start

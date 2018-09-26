@@ -37,7 +37,7 @@
         "testbox":"^2.8.0"
     },    
     "installPaths":{
-        "coldbox":"coldbox",
+        "coldbox":"../coldbox",
         "cbvalidation":"modules/cbvalidation",
         "module-v1":"../modules_app/module-v1",
         "module-v2":"../modules_app/module-v2",
